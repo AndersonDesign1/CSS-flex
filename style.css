@@ -49,3 +49,54 @@
     padding: 20px;
     border: 1px solid black;
 }
+
+/* End of Day 1 Class */
+
+
+/* Start of Day 2 class */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+    border: 2px solid crimson;
+}
+
+.container .item-1 {
+    flex-shrink: 3;
+    background-color: dodgerblue;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container .item-2 {
+    flex-shrink: 1;
+    background-color: green;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container .item-3 {
+    flex-shrink: 2;
+    background-color: purple;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container-2{
+    display: flex;
+}
+
+.container-2 div{
+    flex: 1;
+}
