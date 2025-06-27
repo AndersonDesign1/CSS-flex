@@ -8,7 +8,6 @@
 
 body {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     line-height: 1.6;
     background-color: #fff;
@@ -95,7 +94,7 @@ body {
 }
 
 .media-object:hover{
-    transform: translateY(-4px);
+    transform: translateY(-6px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
@@ -136,7 +135,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 6rem;
 }
 
 .footer-column{
